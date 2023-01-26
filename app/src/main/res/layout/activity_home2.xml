@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activityHome2">
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="412dp"
+        android:layout_height="91dp"
+        android:scaleType="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/white" />
+
+    <Button
+        android:id="@+id/button52"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="34dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="60dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:clickable="true"
+        android:onClick="goHome"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="Home"
+        android:textColor="#6053A5"
+        android:textSize="10sp"
+        app:icon="@drawable/home"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="30dp"
+        app:iconTint="#6053A5"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView16"
+        app:layout_constraintStart_toStartOf="@+id/imageView16"
+        app:layout_constraintTop_toTopOf="@+id/imageView16"
+        app:layout_constraintVertical_bias="0.567"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button53"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="41dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="56dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="Routines"
+        android:textColor="#AFAFAF"
+        android:textSize="10sp"
+        app:icon="@drawable/routines"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="30dp"
+        app:iconTint="#AFAFAF"
+        app:layout_constraintStart_toEndOf="@+id/button52"
+        app:layout_constraintTop_toTopOf="@+id/button52"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button54"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="34dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="44dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="Statics"
+        android:textColor="#AFAFAF"
+        android:textSize="10sp"
+        app:icon="@drawable/statics"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="30dp"
+        app:iconTint="#AFAFAF"
+        app:layout_constraintStart_toEndOf="@+id/button53"
+        app:layout_constraintTop_toTopOf="@+id/button53"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/button55"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="44dp"
+        android:layout_height="51dp"
+        android:background="#00FFFFFF"
+        android:backgroundTint="#00FFFFFF"
+        android:clickable="true"
+        android:onClick="goSettings"
+        android:paddingLeft="0dp"
+        android:paddingTop="0dp"
+        android:paddingRight="0dp"
+        android:paddingBottom="0dp"
+        android:text="Settings"
+        android:textColor="#AFAFAF"
+        android:textSize="10sp"
+        app:icon="@drawable/settings"
+        app:iconGravity="top"
+        app:iconPadding="0dp"
+        app:iconSize="30dp"
+        app:iconTint="#AFAFAF"
+        app:layout_constraintEnd_toEndOf="@+id/imageView16"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toEndOf="@+id/button54"
+        app:layout_constraintTop_toTopOf="@+id/button54"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="0dp"
+        android:layout_height="166dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rect10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text="Your Home"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.634" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="15dp"
+        android:layout_height="17dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/iconlocation" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="276dp"
+        android:layout_height="16dp"
+        android:text="TextView"
+        android:textColor="#707070"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#2A2A38"
+        android:onClick="addRoom"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/imageView14"
+        app:layout_constraintVertical_bias="0.732"
+        app:srcCompat="@drawable/plus"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <FrameLayout
+        android:id="@+id/FR"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14">
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="124dp"
+        android:layout_height="112dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.368"
+        tools:srcCompat="@android:drawable/sym_def_app_icon" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:background="#00FFFFFF"
+        android:text="SAVE"
+        app:layout_constraintStart_toEndOf="@+id/imageView18"
+        app:layout_constraintTop_toTopOf="@+id/imageView18" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

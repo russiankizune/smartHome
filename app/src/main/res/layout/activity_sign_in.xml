@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signIn">
+
+    <ImageView
+        android:id="@+id/house2"
+        android:layout_width="651dp"
+        android:layout_height="735dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/house" />
+
+    <ImageView
+        android:id="@+id/whrect2"
+        android:layout_width="369dp"
+        android:layout_height="369dp"
+        android:layout_marginBottom="204dp"
+        android:scaleType="centerInside"
+        android:scaleY="1.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.152"
+        app:srcCompat="@drawable/whrect" />
+
+    <ImageView
+        android:id="@+id/orrect2"
+        android:layout_width="415dp"
+        android:layout_height="739dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/fon" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="552dp"
+        android:text="Smart House"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <EditText
+        android:id="@+id/ETemail2"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/whrect2" />
+
+    <EditText
+        android:id="@+id/ETName"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETemail2" />
+
+    <EditText
+        android:id="@+id/ETpassword2"
+        style="@style/Widget.AppCompat.AutoCompleteTextView"
+        android:layout_width="350dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#FFFFFF"
+        android:drawableTint="#FFFFFF"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:outlineAmbientShadowColor="#FFFFFF"
+        android:password="true"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/whrect2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ETName"
+        app:layout_constraintVertical_bias="0.273" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="313dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="136dp"
+        android:backgroundTint="#5E55A0"
+        android:onClick="signIn"
+        android:text="New Resident"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/whrect"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="313dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="52dp"
+        android:backgroundTint="#2A2A37"
+        android:onClick="signIn"
+        android:text="Enter Your House"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.271" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="82dp"
+        android:layout_height="79dp"
+        android:layout_marginBottom="576dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/house"
+        app:layout_constraintVertical_bias="0.227"
+        app:srcCompat="@drawable/logo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
